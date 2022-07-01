@@ -17,3 +17,8 @@ Based on the diagram presented in class, write the SQL code to conduct the follo
 HINT: Obtain the new OrderID by using SCOPE_IDENTITY()
 
 6) Include nested transaction to manage the different steps as explained in lecture (remember: @@TRANCOUNT must be 1 when the final commit is issued). 
+
+
+## Extra credit: Substring(CAST)
+-- Write the SQL code to create a stored procedure to find all students whose StudentID matches a 4-number pattern
+-- at the beginning of their number
